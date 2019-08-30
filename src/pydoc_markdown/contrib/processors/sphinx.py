@@ -34,7 +34,7 @@ from pydoc_markdown.interfaces import Processor
 class SphinxProcessorConfig(Object):
   pass
 
-
+@implements(Processor)
 class SphinxProcessor(Preprocessor):
 
   CONFIG_CLASS = SphinxProcessorConfig
