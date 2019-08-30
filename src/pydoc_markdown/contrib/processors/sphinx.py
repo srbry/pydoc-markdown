@@ -35,7 +35,7 @@ class SphinxProcessorConfig(Object):
   pass
 
 @implements(Processor)
-class SphinxProcessor(Preprocessor):
+class SphinxProcessor(Processor):
 
   CONFIG_CLASS = SphinxProcessorConfig
 
